@@ -63,9 +63,5 @@ public class Foo {
          */
         Predicate<String> startsWithHwiseo = (s) -> s.startsWith("hwiseo");
 
-        /**
-         * UnaryOperator<T>
-         * T 타입을 받아 T 타입을 리턴하는 인터페이스
-         */
     }
 }
