@@ -1,5 +1,9 @@
+import com.example.java8.interfac.FooInterImpl;
+
 public class Main {
     public static void main(String[] args) {
-        System.out.println("Hello world!");
+        FooInterImpl fooInter = new FooInterImpl("hwiseo");
+        fooInter.printName();
+        fooInter.printNameUpperCase();
     }
 }
