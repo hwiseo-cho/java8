@@ -4,8 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="f824bc07-2dfc-4e62-9601-426e1630a6c8" name="Changes" comment="Optional API">
-      <change afterPath="$PROJECT_DIR$/src/com/example/java8/date/DateAPI.java" afterDir="false" />
+    <list default="true" id="f824bc07-2dfc-4e62-9601-426e1630a6c8" name="Changes" comment="Date API">
+      <change afterPath="$PROJECT_DIR$/src/com/example/java8/CompletableFuture/Com.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/example/java8/CompletableFuture/Test.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/example/java8/CompletableFuture/Test2.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -47,7 +49,20 @@
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
-  <component name="RunManager" selected="Application.DateAPI">
+  <component name="RunManager" selected="Application.Test2">
+    <configuration name="Com" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.example.java8.CompletableFuture.Com" />
+      <module name="javai" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.example.java8.CompletableFuture.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="DateAPI" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.example.java8.date.DateAPI" />
       <module name="javai" />
@@ -57,13 +72,6 @@
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Main" />
-      <module name="javai" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -81,12 +89,25 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="StreamAPI" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.example.java8.stream.StreamAPI" />
+    <configuration name="Test" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.example.java8.CompletableFuture.Test" />
       <module name="javai" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.example.java8.stream.*" />
+          <option name="PATTERN" value="com.example.java8.CompletableFuture.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Test2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.example.java8.CompletableFuture.Test2" />
+      <module name="javai" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.example.java8.CompletableFuture.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -96,10 +117,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Test2" />
+        <item itemvalue="Application.Test" />
+        <item itemvalue="Application.Com" />
         <item itemvalue="Application.DateAPI" />
         <item itemvalue="Application.OptionalAPI" />
-        <item itemvalue="Application.StreamAPI" />
-        <item itemvalue="Application.Main" />
       </list>
     </recent_temporary>
   </component>
@@ -111,7 +133,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1708241429371</updated>
-      <workItem from="1708241430379" duration="16180000" />
+      <workItem from="1708241430379" duration="20007000" />
     </task>
     <task id="LOCAL-00001" summary="init">
       <option name="closed" value="true" />
@@ -145,7 +167,15 @@
       <option name="project" value="LOCAL" />
       <updated>1708514328641</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="Date API">
+      <option name="closed" value="true" />
+      <created>1708944506735</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1708944506735</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -156,6 +186,7 @@
     <MESSAGE value="람다표현식, 메소드 래퍼런스" />
     <MESSAGE value="Stream API" />
     <MESSAGE value="Optional API" />
-    <option name="LAST_COMMIT_MESSAGE" value="Optional API" />
+    <MESSAGE value="Date API" />
+    <option name="LAST_COMMIT_MESSAGE" value="Date API" />
   </component>
 </project>
